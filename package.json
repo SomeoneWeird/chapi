@@ -1,0 +1,33 @@
+{
+  "name": "chapi",
+  "version": "0.0.1",
+  "description": "Compatible hashing API for NodeJS",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha -R spec --check-leaks"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SomeoneWeird/chapi.git"
+  },
+  "keywords": [
+    "hashing",
+    "node",
+    "crypt",
+    "security",
+    "compatible"
+  ],
+  "author": "Adam Brady <adam@boxxen.org>",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/SomeoneWeird/chapi/issues"
+  },
+  "homepage": "https://github.com/SomeoneWeird/chapi",
+  "dependencies": {
+    "bcrypt": "^0.8.0",
+    "scrypt": "^3.0.1"
+  }
+}
