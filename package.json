@@ -1,6 +1,6 @@
 {
   "name": "chapi",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Compatible hashing API for NodeJS",
   "main": "lib/index.js",
   "directories": {
