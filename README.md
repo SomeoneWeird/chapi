@@ -34,7 +34,7 @@ The hash function takes a string, and a callback. It performs the actually compu
 
 The signature of the callback you pass should be `function(err, hash)`
 
-#### compare(str, hash, callback ####
+#### compare(str, hash, callback) ####
 
 The compare function takes a string, a hash, and a callback. It calculates the hash of `str` (using the options from `hash`, if necessary) and compares it to `hash`.
 
