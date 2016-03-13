@@ -27,7 +27,10 @@
   },
   "homepage": "https://github.com/SomeoneWeird/chapi",
   "dependencies": {
-    "bcrypt": "^0.8.3",
-    "scrypt": "^4.0.7"
+    "bcrypt": "^0.8.5",
+    "scrypt": "^6.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5"
   }
 }
